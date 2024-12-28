@@ -25,6 +25,7 @@ public class NumGuess{
 				System.out.println("Too high!");
 			}else{
 				System.out.println("Congrats! You guessed the number!");
+				System.out.println("It took you " + numofGuess + " to guess the correct number.");
 				break;
 			}			
 		}
