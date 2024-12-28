@@ -6,7 +6,7 @@ public class NumGuess{
 		Scanner scanner = new Scanner(System.in);
 		Random random = new Random();
 		
-		int lowestVal = 1;
+		int lowerVal = 1;
 		int upperVal = 100;
 		int numToGuess = random.nextInt(upperVal - lowerVal);
 		int numofGuess = 0;
