@@ -30,4 +30,7 @@ public class NumGuess{
 		}
 		scanner.close();
 	}	
+	public static void main(String[] args){
+		numGame();
+	}
 }
