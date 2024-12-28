@@ -24,7 +24,7 @@ public class NumGuess{
 			}else if (guess > numToGuess){
 				System.out.println("Too high!");
 			}else{
-				System.out.println("Congrats! You guessed the number!")
+				System.out.println("Congrats! You guessed the number!");
 				break;
 			}			
 		}
